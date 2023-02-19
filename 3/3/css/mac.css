@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    gap: 100px;
+}
+
+.column {
+    text-align: center;
+}
+
+.mac__title {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.mac__price {
+    font-size: 18px;
+    color: #c4c4c4;
+    margin-top: 10px;
+}
+
+.mac__colors {
+    margin-top: 20px;
+}
+
+.mac__colors span {
+    cursor: pointer;
+    display: flex;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.mac__colors span:first-child {
+    background-color: #C7C8CA;
+}
+
+.mac__colors span:nth-child(2) {
+    background-color: #B1B2B7;
+}
+
+.mac__colors span:last-child {
+    background-color: #E3CCB4;
+}
+
+.mac__buy {
+    all: unset;
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.mac__line {
+    margin: 0 auto;
+    opacity: 0.5;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.box {
+    display: block;
+    margin-top: 40px;
+    text-align: center;
+    justify-content: center;
+}
+
+.box__title {
+    font-size: 14px;
+    color: #040506;
+    opacity: 0.8;
+}
+
+.box__pretitle {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.box__img {
+    width: 50px;
+    height: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    margin-bottom: 10px;
+    object-fit: contain;
+}
+
+.box__desc {
+    font-size: 14px;
+    color: #040506;
+    opacity: 0.8;
+    max-width: 200px;
+    margin: auto;
+}
+
+.mac__learn {
+    margin-top: 40px;
+    color: skyblue;
+}
